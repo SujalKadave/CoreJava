@@ -1,0 +1,12 @@
+package com.mindcraft.pack1;
+
+public class Student {
+	private String name="Sujal";
+	private int rollNo=1;
+	
+	public void displayInfo() {
+		  System.out.println("Name:"+name+" RollNo:"+rollNo);
+	   }
+}
+
+

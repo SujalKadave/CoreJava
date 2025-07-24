@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Astro {
+    public static void main(String[] args) {
+    	 int number = 153;  
+         
+         if(Armstrong(number)) {
+         System.out.println(number + " is an Armstrong number.");
+         } else {
+             System.out.println(number + " is not an Armstrong number.");
+         }
+     }
+
+     public static boolean Armstrong(int number) {
+         int originalNumber = number;
+         int sum = 0;
+         while (number > 0) {
+             int digit = number % 10;       
+             sum = sum+ digit * digit * digit;               
+         }
+
+         return sum == originalNumber;
+     }
+}

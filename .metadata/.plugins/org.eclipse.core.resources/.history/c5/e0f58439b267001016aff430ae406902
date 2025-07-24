@@ -1,0 +1,13 @@
+
+import java.util.Scanner;
+public class Matrix {
+
+	public static void main(String[] args) {
+		int [][]a=new int[3][3];
+		int [][]b=new int[3][3];
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter values");
+
+	}
+
+}
