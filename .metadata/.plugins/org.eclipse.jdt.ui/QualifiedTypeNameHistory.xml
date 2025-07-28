@@ -2,4 +2,5 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.mindcraft.pack1.Student"/>
     <fullyQualifiedTypeName name="com.mindcraft.pack2.Batch"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
